@@ -1,0 +1,20 @@
+venv
+env
+
+# Video Formats
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+media/*
+converted_media/*
+
+*__pycache__
+*.pyc
+.idea
+.vscode
+
+*log*
+*.sh
+
