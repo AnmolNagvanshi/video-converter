@@ -18,3 +18,4 @@ converted_media/*
 *log*
 *.sh
 *.sqlite3
+*.rdb
