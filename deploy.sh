@@ -1,5 +1,6 @@
+ls
 pwd
-source /home/ubuntu/video-converter/venv/bin/activate
+source video-converter/venv/bin/activate
 pwd
 cd video-converter
 pwd
