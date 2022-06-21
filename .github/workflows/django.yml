@@ -22,7 +22,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
-        target: ${{ secrets.TARGET_DIR }}
         script: sudo /home/ubuntu/video-converter/deploy.sh
 
 
