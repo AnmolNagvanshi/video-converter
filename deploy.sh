@@ -1,7 +1,8 @@
+pwd
 source /home/ubuntu/video-converter/venv/bin/activate
-ls
+pwd
 cd video-converter
-ls
+pwd
 git pull
 pip install -r requirements.txt
 python3 manage.py migrate
