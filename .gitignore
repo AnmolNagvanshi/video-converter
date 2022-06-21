@@ -16,6 +16,5 @@ converted_media/*
 .vscode
 
 *log*
-*.sh
 *.sqlite3
 *.rdb
