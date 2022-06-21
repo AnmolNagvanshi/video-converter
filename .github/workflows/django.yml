@@ -23,7 +23,7 @@ jobs:
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         target: ${{ secrets.TARGET_DIR }}
-        script: /home/ubuntu/video-converter/deploy.sh
+        script: pwd
 
 
 #    - name: Set up Python ${{ matrix.python-version }}
