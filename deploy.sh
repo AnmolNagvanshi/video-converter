@@ -1,4 +1,3 @@
-cd video-converter
 source /home/ubuntu/video-converter/venv/bin/activate
 git pull
 pip install -r requirements.txt
