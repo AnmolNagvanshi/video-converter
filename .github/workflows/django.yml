@@ -23,7 +23,7 @@ jobs:
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         # target: ${{ secrets.TARGET_DIR }}
-        script: video-converter/deploy.sh
+        script: ./deploy
 
 
 #    - name: Set up Python ${{ matrix.python-version }}
