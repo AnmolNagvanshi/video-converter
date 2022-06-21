@@ -9,3 +9,4 @@ pip install -r requirements.txt
 python3 manage.py migrate
 sudo service gunicorn restart
 sudo service nginx restart
+ls
