@@ -15,6 +15,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST_DNS }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        script: whoami
 #    - name: Set up Python ${{ matrix.python-version }}
 #      uses: actions/setup-python@v3
 #      with:
@@ -28,14 +36,7 @@ jobs:
 #      run: |
 #        python manage.py test
 
-    - name: executing remote ssh commands using password
-     uses: appleboy/ssh-action@master
-     with:
-       host: ${{ secrets.HOST_DNS }}
-       username: ${{ secrets.USERNAME }}
-       key: ${{ secrets.KEY }}
-       port: ${{ secrets.PORT }}
-       script: whoami
+
 
 
 #    steps:
